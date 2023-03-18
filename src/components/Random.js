@@ -4,7 +4,7 @@ import "./Random.css";
 
 const Random = () => {
   const [randomNumber, setRandomNumber] = useState(0);
-  const [inputNumber, setInputNumber] = useState(0);
+  const [inputNumber, setInputNumber] = useState(null);
 
   const getRandomNumber = () => {
     setRandomNumber(Math.floor(Math.random() * `${inputNumber}`));
